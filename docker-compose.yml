@@ -1,8 +1,8 @@
 version: '1.0.0.1'
 services:
-  www:
+  www_php:
     build: .
     ports:
-      - "9001:8080"
+      - "8083:80"
     volumes:
       - "./src:/var/www/html/"
